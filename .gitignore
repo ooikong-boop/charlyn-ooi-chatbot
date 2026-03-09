@@ -1,0 +1,14 @@
+# Environment variables and secrets - NEVER commit these
+.env
+credentials.json
+token.json
+
+# Streamlit secrets (managed via Streamlit Cloud UI instead)
+.streamlit/secrets.toml
+
+# Temporary processing files (can always be regenerated)
+.tmp/
+
+# NOTE: .chroma_db/ is intentionally NOT listed here.
+# The pre-built vector database is included in the repo
+# so the deployed app does not need to rebuild it from scratch.
