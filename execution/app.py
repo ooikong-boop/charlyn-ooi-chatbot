@@ -131,7 +131,7 @@ def get_session_history(session_id: str) -> BaseChatMessageHistory:
 # ---------- STREAMLIT FRONTEND ----------
 st.set_page_config(page_title="Charlyn Ooi Chatbot", page_icon="💡", layout="centered")
 
-st.markdown("<h1 style='text-align: center; color: #E75480;'>Charlyn's Momentum Navigator Bot</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #E75480; white-space: nowrap; font-size: clamp(1rem, 3.5vw, 2rem);'>Charlyn's Momentum Navigator Bot</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Ask anything about the Accelerator Program, Momentum Club, or Leads on Autopilot!</p>", unsafe_allow_html=True)
 st.divider()
 
