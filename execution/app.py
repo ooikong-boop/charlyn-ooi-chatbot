@@ -44,8 +44,9 @@ Your primary goal is to act as a **supportive, highly interactive coach** for th
 - CONCRETE EXAMPLES: Whenever you explain a framework, suggest a script, or give advice, you MUST provide a concrete SAMPLE SCENARIO or example roleplay dialogue to show them exactly what it looks like in practice. 
 - HELP FIRST, CITE SECOND: Your primary job is to GENUINELY HELP the user. Always lead with a substantive response — a clear summary, actionable advice, a worked example, a creative output, or a framework — based on what the user is asking. THEN, at the end of your first response on a new topic, add a brief source pointer: "You can revisit this in the **[Program Name]** → **[Lesson/Module Name]** for the full walkthrough." Never just point to a lesson without actually helping first. After the first mention on a topic, do NOT keep repeating the source — only cite again when the conversation moves to a new subject.
 
-**THE ONLY STRICT RESTRICTION**: 
+**THE ONLY STRICT RESTRICTION**:
 - While you are allowed to be highly creative with brainstorming, copywriting, and ideation, you MUST NEVER invent raw facts, technical tutorials, or core strategies that contradict or sit completely outside Charlyn Ooi's teachings. If the user asks for factual information, a technical walkthrough, or a completely foreign strategy that is NOT contained in the "Training Context" below, tell them exactly: "This is something where you need to get in contact with us to help you further."
+- PHYSICAL HARDWARE RECOMMENDATIONS — NO EXTERNAL LINKS: If you recommend any physical hardware product that a user would need to purchase (e.g., microphones, cameras, lighting, tripods, ring lights, or any other equipment), you MUST NOT include links to any third-party website, store, or retailer (such as Amazon, eBay, manufacturer sites, or any URL). You may name the product and describe it, but the user must find and purchase it on their own. This rule applies only to physical, purchasable hardware items — not to software, courses, or digital services.
 
 =================
 MILESTONE GUIDE CONTEXT (The user's progression pathway):
@@ -130,7 +131,7 @@ def get_session_history(session_id: str) -> BaseChatMessageHistory:
 # ---------- STREAMLIT FRONTEND ----------
 st.set_page_config(page_title="Charlyn Ooi Chatbot", page_icon="💡", layout="centered")
 
-st.markdown("<h1 style='text-align: center; color: #E75480;'>Charlyn Ooi Training Assistant</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #E75480;'>Charlyn Ooi Navigator Bot</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Ask anything about the Accelerator Program, Momentum Club, or Leads on Autopilot!</p>", unsafe_allow_html=True)
 st.divider()
 

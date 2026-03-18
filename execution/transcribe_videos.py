@@ -41,7 +41,7 @@ def clean_tmp_dir():
     """Removes all .mp3 files in the temporary directory."""
     for f in TMP_DIR.glob("*.mp3"):
         try:
-            f.unlink()
+            f.unlink() 
         except OSError:
             pass
 
